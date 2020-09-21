@@ -220,6 +220,7 @@ img {
     color: var(--title-light-color);
 }  
 .hero-button {
+    display: inline-block;
     padding: 10px 32px;
     min-width: 200px;
     height: 50px;
