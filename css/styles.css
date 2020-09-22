@@ -76,6 +76,7 @@ img {
 
 .header {
     padding: 25px 0;
+    border-bottom: 
 }
 
 .header .container {
@@ -86,6 +87,11 @@ img {
 .navigation {
     display:flex;
     align-items: center;
+}
+
+.header a {
+    display:block;
+    padding: 15px 0;
 }
 
 .header .logo {
@@ -214,12 +220,10 @@ img {
     display: inline-block;
     padding: 10px 32px;
     min-width: 200px;
-    height: 50px;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.875;
     letter-spacing: 0.06em;
-    align-items: center;
     color: var(--title-light-color);
     background: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -305,7 +309,7 @@ img {
 }
 
 .team-list-content {
-    padding: 30px 0;
+    padding: 30px 20px;
     text-align: center;
 }
 
@@ -336,13 +340,13 @@ img {
 
 .projects {
     padding: 94px 0;
-    border-top: 1px var(--border-color);
+    border-top: 1px var(--section-border-color);
 }
 
 .projects-filter-list {
     display: flex;
     justify-content: center;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .projects-filter-list-item:not(:last-child) {
