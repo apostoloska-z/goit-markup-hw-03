@@ -76,7 +76,6 @@ img {
 
 .header {
     padding: 25px 0;
-    border-bottom: 
 }
 
 .header .container {
@@ -152,7 +151,7 @@ img {
 
 .footer {
     padding: 60px 0;
-    min-width: 250px;
+    min-height: 252px;
     background-color: var(--background-dark-color);
 }
 
@@ -164,7 +163,15 @@ img {
     margin-bottom:20px;
 }
 
-.address-line:not(:last-child) {
+.address > a {
+    display:block;
+}
+
+.address > a:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.address-main {
     margin-bottom: 9px;
 }
 
